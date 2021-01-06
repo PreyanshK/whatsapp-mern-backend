@@ -11,6 +11,7 @@
   "author": "Preyansh K",
   "license": "ISC",
   "dependencies": {
+    "core-util-is": "^1.0.2",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongoose": "^5.11.10",
