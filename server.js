@@ -23,7 +23,7 @@ app.use(cors())
 app.use(express.json());
 
 // DB config
-const connection_url = "mongodb+srv://admin:QmhqR3CDlkcpKIfg@cluster0.ybgmo.mongodb.net/whatsappDB?retryWrites=true&w=majority"
+const connection_url = // your MongoDB URI goes here
 
 mongoose.connect(connection_url, {
     useCreateIndex: true,
